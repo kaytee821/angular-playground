@@ -6,6 +6,10 @@
         <source>hello, world!</source>
         <target/>
       </trans-unit>
+      <trans-unit id="72fcc6a6e6ea0205fd7876e434f17e935080b028" datatype="html">
+        <source>another word</source>
+        <target/>
+      </trans-unit>
     </body>
   </file>
 </xliff>

@@ -8,7 +8,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "translate": "ng serve --aot --i18n-file=src/i18n/messages.$LANG.xlf --locale=$LANG --i18n-format=xlf"
   },
   "private": true,
   "dependencies": {

@@ -26,10 +26,14 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Translating text and running app in different language
 
 To add a new element to the translation dictionary (messages.xlf), add the `i18n` attribute to any html element.
+
 `<p i18n>hello, world!</p>`
+
 Next run `npm run i18n` to add the text to your translation dictionary (messages.xlf)
 
+
 ** Currently, this project only allows manual translations. To add your translated text, copy the output diff from messages.xlf after running the i18n command. Next open the language file, add that copied `<trans-unit>` text and change the target element to your translation.
+
 
 To set the language other than the default (english), Run `LANG=es npm run translate` setting 'LANG' to whatever your language preference is (current options: es, fr, en).
 

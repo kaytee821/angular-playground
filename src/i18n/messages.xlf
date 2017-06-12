@@ -5,10 +5,26 @@
       <trans-unit id="70fd930db41c2f9dcf6980db36e4d6fc5c7bc564" datatype="html">
         <source>hello, world!</source>
         <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="72fcc6a6e6ea0205fd7876e434f17e935080b028" datatype="html">
         <source>another word</source>
         <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="53fc17c7ea751ac4afa4bda45558e0af7e911548" datatype="html">
+        <source>moar words</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
       </trans-unit>
     </body>
   </file>
